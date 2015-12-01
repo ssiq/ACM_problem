@@ -31,7 +31,7 @@ void solve(int l,int r)
     long long int ans=0;
     for(int i=l;i<r;++i)
     {
-        ans+=(((long long)(i-max(l-1,left_index[i]))*(min(r,right_index[i])-i))*D[i]);
+        ans+=(((long long(i-max(l-1,left_index[i]))*(min(r,right_index[i])-i))*D[i]);
     }
     cout<<ans<<endl;
 }
